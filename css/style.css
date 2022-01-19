@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nosifer', cursive;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.container{
+    width:1140px;
+    margin:0px auto;
+}
+.green{
+    background-color: green;
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+.red{
+    background: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position:absolute;
+    top: 10%;
+    left: 28%;
+}
+.stick{
+    background: #000;
+    height: 700px;
+    width: 7px;
+    position: absolute;
+}
+.pink{
+    background: #ff08c9;
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    bottom: -305px;
+    left: -12px;
+}
+.blue{
+    background: #0b014a;
+    width: 40px;
+    height: 5px;
+    position: absolute;
+    bottom: -310px;
+    left: -18px;
+}
+.gray{
+    background:#632503;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    bottom: -315px;
+    left: -23px;
+}
+.fb_share{
+    position: fixed;
+    width: 150px;
+    top: 40%;
+    right: -115px;
+}
+.twit_share{
+    position: fixed;
+    width: 150px;
+    height: 32px;
+    top: 43.9%;
+    right: -112px;
+}
+.In_share{
+    position: fixed;
+    width: 150px;
+    top: 48%;
+    right: -116px;
+}
+.tiktok_share{
+    position: fixed;
+    width: 150px;
+    top: 51.7%;
+    right: -117px;
+}
+.YouTube_share{
+    position: fixed;
+    width: 150px;
+    top: 55.4%;
+    right: -116px;
+}
+.social_icon:hover{
+    right: -2px;
+    cursor: pointer;
+    transition: cubic-bezier(0.67, 0.17, 0.42, 1.04) 1s;
+}
